@@ -1,0 +1,316 @@
+2016-03-28T16:46:19.766Z - info: Express server listening on 9090, in development mode
+2016-03-28T17:01:38.294Z - error:  SyntaxError: Unexpected token G
+    at parse (native)
+    at processImmediate [as _immediateCallback] (timers.js:367:17)
+From previous event:
+    at Object.exports.requestSteamPrices (/home/dev/g2a/skywarrior-1/server/components/redis/steam.prices.js:19:6)
+    at Object.fn (/home/dev/g2a/skywarrior-1/server/components/scheduler/index.js:14:26)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/lib/job.js:210:22
+    at processDbResult (/home/dev/g2a/skywarrior-1/node_modules/agenda/lib/agenda.js:348:7)
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/collection.js:1470:14
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/db.js:253:5
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:795:13
+    at Callbacks.emit (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:94:3)
+    at null.messageHandler (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:235:23)
+    at Socket.<anonymous> (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:259:22)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:540:20)
+2016-03-28T17:06:36.075Z - error:  SyntaxError: Unexpected token l
+    at parse (native)
+    at processImmediate [as _immediateCallback] (timers.js:367:17)
+From previous event:
+    at Object.exports.requestSteamPrices (/home/dev/g2a/skywarrior-1/server/components/redis/steam.prices.js:19:6)
+    at Object.fn (/home/dev/g2a/skywarrior-1/server/components/scheduler/index.js:14:26)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/lib/job.js:210:22
+    at processDbResult (/home/dev/g2a/skywarrior-1/node_modules/agenda/lib/agenda.js:348:7)
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/collection.js:1470:14
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/db.js:253:5
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:795:13
+    at Callbacks.emit (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:94:3)
+    at null.messageHandler (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:235:23)
+    at Socket.<anonymous> (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:259:22)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:540:20)
+2016-03-28T17:45:35.660Z - info: Express server listening on 9090, in development mode
+2016-03-28T21:02:00.386Z - info: Express server listening on 9090, in development mode
+2016-03-28T21:26:04.692Z - info: Express server listening on 9090, in development mode
+2016-03-28T21:34:09.847Z - info: Express server listening on 9090, in development mode
+2016-03-28T21:35:08.773Z - info: Express server listening on 9090, in development mode
+2016-03-28T21:39:28.420Z - info: Express server listening on 9090, in development mode
+2016-03-28T22:02:45.170Z - info: Express server listening on 9090, in development mode
+2016-03-28T22:11:06.248Z - info: Express server listening on 9090, in development mode
+2016-03-28T22:12:07.718Z - info: Express server listening on 9090, in development mode
+2016-03-28T22:36:17.087Z - error:  Error: getaddrinfo ENOTFOUND backpack.tf
+    at errnoException (dns.js:44:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:94:26)
+From previous event:
+    at Object.exports.requestSteamPrices (/home/dev/g2a/skywarrior-1/server/components/redis/steam.prices.js:15:18)
+    at Object.fn (/home/dev/g2a/skywarrior-1/server/components/scheduler/index.js:14:26)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/lib/job.js:210:22
+    at processDbResult (/home/dev/g2a/skywarrior-1/node_modules/agenda/lib/agenda.js:348:7)
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/collection.js:1470:14
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/db.js:253:5
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:795:13
+    at Callbacks.emit (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:94:3)
+    at null.messageHandler (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:235:23)
+    at Socket.<anonymous> (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:259:22)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:540:20)
+2016-03-29T00:36:14.485Z - error:  Error: getaddrinfo ENOTFOUND backpack.tf
+    at errnoException (dns.js:44:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:94:26)
+From previous event:
+    at Object.exports.requestSteamPrices (/home/dev/g2a/skywarrior-1/server/components/redis/steam.prices.js:15:18)
+    at Object.fn (/home/dev/g2a/skywarrior-1/server/components/scheduler/index.js:14:26)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/lib/job.js:210:22
+    at processDbResult (/home/dev/g2a/skywarrior-1/node_modules/agenda/lib/agenda.js:348:7)
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/collection.js:1470:14
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/db.js:253:5
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:795:13
+    at Callbacks.emit (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:94:3)
+    at null.messageHandler (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:235:23)
+    at Socket.<anonymous> (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:259:22)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:540:20)
+2016-03-29T04:21:10.414Z - error:  Error: getaddrinfo ENOTFOUND backpack.tf
+    at errnoException (dns.js:44:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:94:26)
+From previous event:
+    at Object.exports.requestSteamPrices (/home/dev/g2a/skywarrior-1/server/components/redis/steam.prices.js:15:18)
+    at Object.fn (/home/dev/g2a/skywarrior-1/server/components/scheduler/index.js:14:26)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/lib/job.js:210:22
+    at processDbResult (/home/dev/g2a/skywarrior-1/node_modules/agenda/lib/agenda.js:348:7)
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/collection.js:1470:14
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/db.js:253:5
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:795:13
+    at Callbacks.emit (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:94:3)
+    at null.messageHandler (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:235:23)
+    at Socket.<anonymous> (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:259:22)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:540:20)
+2016-03-29T04:31:24.657Z - error:  Error: getaddrinfo ENOTFOUND backpack.tf
+    at errnoException (dns.js:44:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:94:26)
+From previous event:
+    at Object.exports.requestSteamPrices (/home/dev/g2a/skywarrior-1/server/components/redis/steam.prices.js:15:18)
+    at Object.fn (/home/dev/g2a/skywarrior-1/server/components/scheduler/index.js:14:26)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/lib/job.js:210:22
+    at processDbResult (/home/dev/g2a/skywarrior-1/node_modules/agenda/lib/agenda.js:348:7)
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/collection.js:1470:14
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/db.js:253:5
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:795:13
+    at Callbacks.emit (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:94:3)
+    at null.messageHandler (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:235:23)
+    at Socket.<anonymous> (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:259:22)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:540:20)
+2016-03-29T04:36:14.678Z - error:  Error: read ECONNRESET
+    at exports._errnoException (util.js:746:11)
+    at TCP.onread (net.js:561:26)
+From previous event:
+    at Object.exports.requestSteamPrices (/home/dev/g2a/skywarrior-1/server/components/redis/steam.prices.js:15:18)
+    at Object.fn (/home/dev/g2a/skywarrior-1/server/components/scheduler/index.js:14:26)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/lib/job.js:210:22
+    at processDbResult (/home/dev/g2a/skywarrior-1/node_modules/agenda/lib/agenda.js:348:7)
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/collection.js:1470:14
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/db.js:253:5
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:795:13
+    at Callbacks.emit (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:94:3)
+    at null.messageHandler (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:235:23)
+    at Socket.<anonymous> (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:259:22)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:540:20)
+2016-03-29T04:41:19.733Z - error:  Error: getaddrinfo ENOTFOUND backpack.tf
+    at errnoException (dns.js:44:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:94:26)
+From previous event:
+    at Object.exports.requestSteamPrices (/home/dev/g2a/skywarrior-1/server/components/redis/steam.prices.js:15:18)
+    at Object.fn (/home/dev/g2a/skywarrior-1/server/components/scheduler/index.js:14:26)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/lib/job.js:210:22
+    at processDbResult (/home/dev/g2a/skywarrior-1/node_modules/agenda/lib/agenda.js:348:7)
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/collection.js:1470:14
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/db.js:253:5
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:795:13
+    at Callbacks.emit (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:94:3)
+    at null.messageHandler (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:235:23)
+    at Socket.<anonymous> (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:259:22)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:540:20)
+2016-03-29T04:51:19.742Z - error:  Error: getaddrinfo ENOTFOUND backpack.tf
+    at errnoException (dns.js:44:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:94:26)
+From previous event:
+    at Object.exports.requestSteamPrices (/home/dev/g2a/skywarrior-1/server/components/redis/steam.prices.js:15:18)
+    at Object.fn (/home/dev/g2a/skywarrior-1/server/components/scheduler/index.js:14:26)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/lib/job.js:210:22
+    at processDbResult (/home/dev/g2a/skywarrior-1/node_modules/agenda/lib/agenda.js:348:7)
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/collection.js:1470:14
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/db.js:253:5
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:795:13
+    at Callbacks.emit (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:94:3)
+    at null.messageHandler (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:235:23)
+    at Socket.<anonymous> (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:259:22)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:540:20)
+2016-03-29T05:51:19.748Z - error:  Error: getaddrinfo ENOTFOUND backpack.tf
+    at errnoException (dns.js:44:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:94:26)
+From previous event:
+    at Object.exports.requestSteamPrices (/home/dev/g2a/skywarrior-1/server/components/redis/steam.prices.js:15:18)
+    at Object.fn (/home/dev/g2a/skywarrior-1/server/components/scheduler/index.js:14:26)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/lib/job.js:210:22
+    at processDbResult (/home/dev/g2a/skywarrior-1/node_modules/agenda/lib/agenda.js:348:7)
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/collection.js:1470:14
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/db.js:253:5
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:795:13
+    at Callbacks.emit (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:94:3)
+    at null.messageHandler (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:235:23)
+    at Socket.<anonymous> (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:259:22)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:540:20)
+2016-03-29T05:56:16.438Z - error:  Error: getaddrinfo ENOTFOUND backpack.tf
+    at errnoException (dns.js:44:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:94:26)
+From previous event:
+    at Object.exports.requestSteamPrices (/home/dev/g2a/skywarrior-1/server/components/redis/steam.prices.js:15:18)
+    at Object.fn (/home/dev/g2a/skywarrior-1/server/components/scheduler/index.js:14:26)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/lib/job.js:210:22
+    at processDbResult (/home/dev/g2a/skywarrior-1/node_modules/agenda/lib/agenda.js:348:7)
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/collection.js:1470:14
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/db.js:253:5
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:795:13
+    at Callbacks.emit (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:94:3)
+    at null.messageHandler (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:235:23)
+    at Socket.<anonymous> (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:259:22)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:540:20)
+2016-03-29T06:01:19.747Z - error:  Error: getaddrinfo ENOTFOUND backpack.tf
+    at errnoException (dns.js:44:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:94:26)
+From previous event:
+    at Object.exports.requestSteamPrices (/home/dev/g2a/skywarrior-1/server/components/redis/steam.prices.js:15:18)
+    at Object.fn (/home/dev/g2a/skywarrior-1/server/components/scheduler/index.js:14:26)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/lib/job.js:210:22
+    at processDbResult (/home/dev/g2a/skywarrior-1/node_modules/agenda/lib/agenda.js:348:7)
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/collection.js:1470:14
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/db.js:253:5
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:795:13
+    at Callbacks.emit (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:94:3)
+    at null.messageHandler (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:235:23)
+    at Socket.<anonymous> (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:259:22)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:540:20)
+2016-03-29T07:01:06.116Z - error:  Error: getaddrinfo ENOTFOUND backpack.tf
+    at errnoException (dns.js:44:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:94:26)
+From previous event:
+    at Object.exports.requestSteamPrices (/home/dev/g2a/skywarrior-1/server/components/redis/steam.prices.js:15:18)
+    at Object.fn (/home/dev/g2a/skywarrior-1/server/components/scheduler/index.js:14:26)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/lib/job.js:210:22
+    at processDbResult (/home/dev/g2a/skywarrior-1/node_modules/agenda/lib/agenda.js:348:7)
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/collection.js:1470:14
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/db.js:253:5
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:795:13
+    at Callbacks.emit (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:94:3)
+    at null.messageHandler (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:235:23)
+    at Socket.<anonymous> (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:259:22)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:540:20)
+2016-03-29T07:17:01.894Z - info: Express server listening on 9090, in development mode
+2016-03-29T07:19:23.901Z - info: Express server listening on 9090, in development mode
+2016-03-29T07:25:24.834Z - info: Express server listening on 9090, in development mode
+2016-03-29T07:26:12.639Z - info: Express server listening on 9090, in development mode
+2016-03-29T08:29:57.219Z - info: Express server listening on 9090, in development mode
+2016-03-29T09:20:16.762Z - error:  Error: read ECONNRESET
+    at exports._errnoException (util.js:746:11)
+    at TCP.onread (net.js:561:26)
+From previous event:
+    at Object.exports.requestSteamPrices (/home/dev/g2a/skywarrior-1/server/components/redis/steam.prices.js:15:18)
+    at Object.fn (/home/dev/g2a/skywarrior-1/server/components/scheduler/index.js:14:26)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/lib/job.js:210:22
+    at processDbResult (/home/dev/g2a/skywarrior-1/node_modules/agenda/lib/agenda.js:348:7)
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/collection.js:1470:14
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/db.js:253:5
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:795:13
+    at Callbacks.emit (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:94:3)
+    at null.messageHandler (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:235:23)
+    at Socket.<anonymous> (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:259:22)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:540:20)
+2016-03-29T09:25:24.089Z - error:  Error: getaddrinfo ENOTFOUND backpack.tf
+    at errnoException (dns.js:44:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:94:26)
+From previous event:
+    at Object.exports.requestSteamPrices (/home/dev/g2a/skywarrior-1/server/components/redis/steam.prices.js:15:18)
+    at Object.fn (/home/dev/g2a/skywarrior-1/server/components/scheduler/index.js:14:26)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/lib/job.js:210:22
+    at processDbResult (/home/dev/g2a/skywarrior-1/node_modules/agenda/lib/agenda.js:348:7)
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/collection.js:1470:14
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/db.js:253:5
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:795:13
+    at Callbacks.emit (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:94:3)
+    at null.messageHandler (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:235:23)
+    at Socket.<anonymous> (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:259:22)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:540:20)
+2016-04-01T19:33:14.386Z - info: Express server listening on 3000, in development mode
